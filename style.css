@@ -3,29 +3,41 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     
+    
 }
 h1{
     font-size: 50px;
     text-align:center;
     color: rgb(4, 4, 4);
 }
+.white-color{
+    color: white;
+}
 h3{
     text-align:center;
+    font-size: 13px;
     color: rgb(3, 3, 3);
 }
-section{
-    
-}
+
 .width{
     width: 100%;
     padding-top: 10%;
 }
-.button{
+
+
+.link-button{
+    text-decoration: none;
     background-image: linear-gradient(to bottom right, tomato , orange);;
-    padding: 10px 20px;
+    padding: 10px 40px;
     color: white;
-    font-weight: 700;
-    border-radius: 10px;
+    
+    border-radius: 5px;
+    position: absolute;
+    transform: translateY(-50%);
+    right: 45%;
+    margin-top: 3%;
+    
+
     
 }
 .top-banner{
@@ -33,4 +45,67 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 250px;
+}
+.box{
+     
+    background-color: #f0f0f5;
+    font-size: 20px;
+    color: rgb(106, 106, 106);
+    border-radius: 10px;
+    padding: 25px 25px 25px 25px;
+    margin-top: 5px;
+}
+
+
+
+.flexible-container{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    padding: auto;
+    justify-content: space-around;
+}
+.line-1{
+    height: 2px;
+    background: rgb(134, 134, 134);
+    max-width: 500px;
+    margin-top: 100px;
+    margin-left: 460px;
+
+}
+.O-amout{
+    text-align: center;
+    color: rgb(60, 60, 60);
+    margin: 15px;
+}
+
+.donate-plan{
+    margin-top: 150px;
+}
+.plans{
+    display: flex;
+    margin: 50px 50px 50px 50px;
+    padding: 50px;
+    justify-content: space-around;
+}
+.plan-pera{
+    font-size: 12px;
+}
+.box-2{
+    background-color: #f0f0f5;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 50px 35px 50px 35px;
+    margin: 20px;
+
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.contribute{
+    display: flex;
 }
