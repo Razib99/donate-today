@@ -27,7 +27,7 @@ h3{
 
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(to bottom right, tomato , orange);
+    background-color: rgb(255, 89, 89);
     padding: 10px 40px;
     color: white;
     
@@ -36,6 +36,7 @@ h3{
     transform: translateY(-50%);
     right: 45%;
     margin-top: 3%;
+    
     
 
     
@@ -46,66 +47,95 @@ h3{
     background-size: cover;
     padding-bottom: 250px;
 }
+
+.flexible-container{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+    padding: auto;
+    justify-content: space-around;
+}
 .box{
      
     background-color: #f0f0f5;
     font-size: 20px;
     color: rgb(106, 106, 106);
-    border-radius: 10px;
-    padding: 25px 25px 25px 25px;
+    border-radius: 5px;
+    padding: 25px 30px 25px 30px;
+    margin-top: 5px;
+}
+.box-red{
+    background-color: rgb(255, 238, 238);
+    font-size: 20px;
+    color: rgb(255, 89, 89);
+    border-radius: 5px;
+    border: 2px;
+    border-color: blue;
+    padding: 25px 30px 25px 30px;
     margin-top: 5px;
 }
 
 
 
-.flexible-container{
-    display: flex;
-    margin-top: 50px;
-    margin-left: 400px;
-    margin-right: 400px;
-    text-align: center;
-    padding: auto;
-    justify-content: space-around;
-}
-.line-1{
-    height: 2px;
-    background: rgb(134, 134, 134);
-    max-width: 500px;
-    margin-top: 100px;
-    margin-left: 460px;
 
-}
+
 .O-amout{
     text-align: center;
     color: rgb(111, 111, 111);
-    margin: 15px;
+    max-width: 500px;
+    margin-top: 70px;
+    margin-left: 460px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
 }
 
 .donate-plan{
-    margin-top: 150px;
+    margin-top: 200px;
 }
 .plans{
     display: flex;
-    margin: 50px 50px 50px 50px;
+    margin: 0px 50px 50px 50px;
     padding: 50px;
     justify-content: space-around;
 }
 .plan-pera{
     font-size: 12px;
 }
-.box-2{
-    background-color: #f0f0f5;
+
+.D-box-1{
+   background-color: rgb(238, 245, 245);
+   font-size: 20px;
+   border-radius: 5px;
+   padding: 50px 35px 50px 35px;
+   margin: 20px;
+}
+.D-box-2{
+   background-color: rgb(255, 238, 239);
+   font-size: 20px;
+   border-radius: 5px;
+   padding: 50px 35px 50px 35px;
+   margin: 20px;
+}
+.D-box-3{
+    background-color: rgb(255, 244, 214);
     font-size: 20px;
     border-radius: 5px;
     padding: 50px 35px 50px 35px;
     margin: 20px;
+ }
 
+.second-h1{
+    text-align: left;
+    font-size: 45px;
 }
 
 .half-width{
-    margin: 20px 20px 20px 20px;
-    padding-left: 5%;   
-    padding: 15px;  
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 10px;  
 }
 .half-width img{
     width: 80%;
@@ -114,11 +144,15 @@ h3{
 
 .contribute{
     display: flex;
+    text-align: left;
     padding-left: 10%;
     padding-right: 10%;
     margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
    
 }
+
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(to bottom right, tomato , orange);
@@ -129,15 +163,20 @@ h3{
 }
 .button3{
     text-decoration: none;
-    background-image: linear-gradient(to bottom right, tomato , orange);
+    background-color: rgb(255, 89, 89);
     padding: 10px 40px;
+    border: none;
     color: white;
     font-weight: 700;
-    border-radius: 5px;
+    border-radius:5px 5px 5px 5px;
+}
+
+.update{
+    text-align: center;
 }
 .button4{
     text-decoration: none;
-    background-image: linear-gradient(to bottom right, tomato , orange);
+    background-color: rgb(255, 89, 89);
     padding: 10px 40px;
     border: none;
     color: white;
@@ -150,9 +189,11 @@ h3{
   
 }
 
+
 .div-4{
-    background-color: rgb(44, 44, 199);
+    background-color: rgb(255, 244, 214);
     margin: 5% 30%;
+    margin-bottom: 120px;
     padding:5%;
     padding-left: 10%;
     border: none;
@@ -166,8 +207,10 @@ h3{
     
 }
 
-footer{
+.footer {
     text-align: center;
+    font-size: 20px;
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
     color: white;
-    background-color: black;
-}
+ }
